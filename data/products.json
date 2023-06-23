@@ -34,5 +34,16 @@
     "stock": 300,
     "category": "Categoría 33",
     "thumbnails": []
+  },
+  {
+    "id": "cd9176e5-b43c-442b-8ba7-f3824686d273",
+    "title": "Producto 3",
+    "description": "Descripción del producto 2 AGREGADO EN POSTMAN",
+    "code": "ABC12345",
+    "price": 300,
+    "status": true,
+    "stock": 300,
+    "category": "Categoría 33",
+    "thumbnails": []
   }
 ]
