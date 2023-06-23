@@ -30,39 +30,3 @@
   </ul>
 </body>
 </html>
-
-
-{{!-- 
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Real-time Products</title>
-  <link rel="stylesheet" href="/styles/main.css">
-  <script src="/socket.io/socket.io.js"></script>
-  <script>
-    var socket = io();
-    socket.on('productAdded', function (product) {
-      var li = document.createElement('li');
-      li.textContent = product.name;
-      document.getElementById('productsList').appendChild(li);
-    });
-    socket.on('productDeleted', function (productId) {
-      var li = document.getElementById(productId);
-      if (li) {
-        li.remove();
-      }
-    });
-  </script>
-</head>
-<body>
-  <h1>Real-time Products</h1>
-  <ul id="productsList">
-    {{#each products}}
-    <li id="{{this.id}}">{{this.name}}</li>
-    {{/each}}
-  </ul>
-</body>
-</html>
- --}}
